@@ -1,0 +1,93 @@
+<script>
+
+const start = 1
+const end   = 10
+let item    = start
+
+document.write(`<ul>`)
+while(item<=end){
+
+if(item == 1){
+  document.write(`<li>:first-child</li>`)
+}
+else if( item == 2){
+    document.write(` <li>:nth-child(${item})</li> `) 
+}
+else if( item == 3){
+    document.write(` <li>:nth-child(${item})</li> `) 
+}
+else if( item == 4){
+    document.write(` <li>:nth-child(${item})</li> `) 
+}
+else if( item == 5){
+    document.write(` <li>:nth-child(${item})</li> `) 
+}
+else if( item == 6){
+    document.write(` <li>:nth-child(${item})</li> `) 
+}
+else if( item == 7){
+    document.write(` <li>:nth-child(${item})</li> `) 
+}
+else if( item == 8){
+    document.write(` <li>:nth-child(${item})</li> `) 
+} 
+else if(item == 9 ){
+    document.write(` <li>:nth-child(${item})</li >`)
+}
+else{document.write(` <li>:last-child </li> `)}
+item++  
+}
+
+document.write(`</ul>`)
+
+
+
+//var 2
+const start = 1
+const end   = 10
+let item    = start
+
+document.write(`<ul>`)
+if(item<=start) {
+  document.write(`<li>:first-child</li>`)
+  item++
+} 
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+if(item>=start) {
+  document.write(`<li>:nth-child(${item})</li>`)
+  item++
+}
+
+if(item<=end) {
+  document.write(`<li>:last-child</li>`)
+  item++
+} 
+document.write(`</ul>`)
+</script>
